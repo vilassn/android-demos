@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="20dp">
+
+        <TextView
+            android:text="Name of item :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <EditText
+            android:id="@+id/name"
+            android:width="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="20dp">
+
+        <TextView
+            android:text="Rate (in Rs) :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <EditText
+            android:id="@+id/rate"
+            android:width="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerRate"
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="20dp">
+
+        <TextView
+            android:text="Quantity :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <EditText
+            android:id="@+id/qty"
+            android:width="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerQty"
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="10dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/btnRemove"
+            android:text="Remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+        <Button
+            android:id="@+id/btnModify"
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</TableLayout>

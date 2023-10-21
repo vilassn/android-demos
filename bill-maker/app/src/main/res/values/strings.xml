@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Bill Maker</string>
+    <string name="name_title">Name and Address :</string>
+    <string name="name_value">e.g. Akshay, Delhi</string>
+    <string name="date_title">Date :</string>
+    <string name="date_value">e.g. 23–01–2023</string>
+    <string name="add_item">Add Item</string>
+    <string name="save_bill">Save Bill</string>
+    <string name="main_title">Grocery Bill</string>
+    <string name="customer">Customer :</string>
+    <string name="billno_title">Bill No. :</string>
+    <string name="billno_value">e.g. 143</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="todo">TODO</string>
+    <string name="new_bill">New Bill</string>
+    <string name="add_to_bill">Add to Bill</string>
+
+    <string-array name="array_technology">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Php</item>
+        <item>Hadoop</item>
+        <item>Sap</item>
+        <item>Python</item>
+        <item>Ajax</item>
+        <item>C++</item>
+        <item>Ruby</item>
+        <item>Rails</item>
+        <item>.Net</item>
+        <item>Perl</item>
+    </string-array>
+</resources>
